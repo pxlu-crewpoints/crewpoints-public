@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> - Testing</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <main role="main">
+            <!--Navbar-->
+<!--Navbar-->
+<nav class="platform-navbar navbar navbar-expand-lg navbar-light" id="landing-navbar">
+    <div class="container-fluid">
+        <!--crewpoints logo-->
+        <a class="navbar-brand text-dark" href="/">CREWPOINTS</a>
+        <!--toggle collapse button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/PlatformDefault">Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/WhyCrewpoints">Why Crewpoints?</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-center flex-wrap">
+                <a href="/Home/ForTech">
+                    <input class="filled-btn" type="button" value="For Technicians" />
+                </a>
+                <a href="/Home/Login">
+                    <input class="empty-btn" type="button" value="Log In" />
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!--Title-->
+<h1 class="text-center py-5">Why Crewpoints?</h1>
+
+<!-- Modal -->
+<div class="modal fade reqdemocontainer" id="reqdemomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content container-fluid">
+            <div class="d-flex align-items-center justify-content-end">
+                <button type="button" class="btn-close pt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row justify-content-center">
+                <div class="col-10">
+                    <h5 class="text-center pb-3">Request a Demo of Crewpoints</h5>
+<form action="/?redirectUrl=%2FHome%2FWhyCrewpoints" method="post">                        <!-- Name inputs -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqfname">First Name</label>
+                            <input type="text" id="reqfname" class="form-control mb-2" data-val="true" data-val-required="The FirstName field is required." name="FirstName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+
+                        </div>
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqlname">Last Name</label>
+                            <input type="text" id="reqlname" class="form-control mb-2" data-val="true" data-val-required="The LastName field is required." name="LastName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+
+                        </div>
+                        <!-- Email input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqemail">Business Email</label>
+                            <input type="email" id="reqemail" class="form-control mb-2" data-val="true" data-val-required="The Email field is required." name="Email" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Phone Number input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="phone">Phone Number</label>
+                            <input type="text" id="phone" class="form-control mb-2" data-val="true" data-val-required="The PhoneNumber field is required." name="PhoneNumber" value="">
+                            <span class="text-danger field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Title input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqtitle">Job Title</label>
+                            <input type="text" id="reqtitle" class="form-control mb-2" data-val="true" data-val-required="The JobTitle field is required." name="JobTitle" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="JobTitle" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Company input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqcompany">Company</label>
+                            <input type="text" id="reqcompany" class="form-control mb-2" data-val="true" data-val-required="The Company field is required." name="Company" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn filled-btn w-100 mx-0 my-4">Get Your Free Demo</button>
+</form>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Body-->
+<div class="container-fluid py-sm-5 bg-white">
+    <div class="row justify-content-center">
+        <input type="radio" name="circlebuttons" id="section1radio" checked="checked">
+        <input type="radio" name="circlebuttons" id="section2radio">
+        <input type="radio" name="circlebuttons" id="section3radio">
+        <input type="radio" name="circlebuttons" id="section4radio">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+            <g id="Component_11_2" data-name="Component 11 – 2" transform="translate(0)">
+                <path class="section1" id="Subtraction_1" data-name="Subtraction 1" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(-1 -1)" fill="#eee" />
+                <path class="section3" id="Subtraction_3" data-name="Subtraction 2" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(-1 501) rotate(-90)" fill="#eee" />
+                <path class="section4" id="Subtraction_4" data-name="Subtraction 3" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(501 501) rotate(180)" fill="#eee" />
+                <path class="section2" id="Subtraction_2" data-name="Subtraction 4" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(501 -1) rotate(90)" fill="#eee" />
+                <text class="section3text section3" id="Accountability" transform="translate(50 380)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Accountability</tspan></text>
+                <text class="section1text section1" id="Efficiency" transform="translate(59 130)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Efficiency</tspan></text>
+                <text class="section2text section2" id="Organization" transform="translate(360 130)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Organisation</tspan></text>
+                <text class="section4text section4" id="Security" transform="translate(379 380)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Security</tspan></text>
+
+                <path id="Path_1" data-name="Path 1" d="M0,0H20V20H0Z" transform="translate(396 347)" fill="none" />
+                <path class="section4text section4" id="Path_2" data-name="Path 2" d="M14.5,6.667h-.75V5.048A3.909,3.909,0,0,0,10,1,3.909,3.909,0,0,0,6.25,5.048V6.667H5.5A1.568,1.568,0,0,0,4,8.286v8.1A1.568,1.568,0,0,0,5.5,18h9A1.568,1.568,0,0,0,16,16.381v-8.1A1.568,1.568,0,0,0,14.5,6.667ZM10,13.952a1.624,1.624,0,0,1,0-3.238,1.624,1.624,0,0,1,0,3.238Zm2.325-7.286H7.675V5.048A2.425,2.425,0,0,1,10,2.538a2.425,2.425,0,0,1,2.325,2.51Z" transform="translate(396 347)" fill="#707070" />
+                <path class="section1text section1" id="bolt_black_24dp" d="M11.444,23H10.333l1.111-7.778H7.555c-.644,0-.633-.356-.422-.733s.056-.089.078-.133Q9.361,10.556,13.666,3h1.111l-1.111,7.778h3.889c.544,0,.622.367.522.567L18,11.511Q11.433,22.994,11.444,23Z" transform="translate(80.441 91)" fill="#707070" />
+                <path id="Path_3" data-name="Path 3" d="M0,0H20V20H0Z" transform="translate(83 347)" fill="none" />
+                <path class="section3text section3" id="Path_4" data-name="Path 4" d="M16.4,2H3.6A1.659,1.659,0,0,0,2,3.6V6.008A1.616,1.616,0,0,0,2.8,7.36V16.4A1.719,1.719,0,0,0,4.4,18H15.6a1.719,1.719,0,0,0,1.6-1.6V7.36A1.616,1.616,0,0,0,18,6.008V3.6A1.659,1.659,0,0,0,16.4,2Zm-4,9.6H7.6V10h4.8Zm4-5.6H3.6V3.6l12.8-.016Z" transform="translate(83 347)" fill="#707070" />
+                <path id="Path_5" data-name="Path 5" d="M0,0H20V20H0Z" transform="translate(396 94)" fill="none" />
+                <path class="section2text section2" id="Path_6" data-name="Path 6" d="M3,10.778H9.222V3H3ZM3,17H9.222V12.333H3Zm7.778,0H17V9.222H10.778Zm0-14V7.667H17V3Z" transform="translate(396 94)" fill="#707070" />
+
+                <text class="section1inner innercontent" id="EFFICIENCY-2" data-name="EFFICIENCY" transform="translate(187 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">EFFICIENCY</tspan></text>
+                <text class="section1inner innercontent" id="With_all_your_resources_under_one_hood_its_quick_and_easy_to_carry_out_day-to-day_operations_" data-name="With all your resources under one
+                        hood, its quick and easy to carry
+                        out day-to-day operations " transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-127.643" y="0">With all your resources under one </tspan><tspan x="-123.413" y="17">hood, its quick and easy to carry </tspan><tspan x="-99.885" y="34">out day-to-day operations </tspan></text>
+                <text class="section2inner innercontent" id="ORGANIZATION-2" data-name="ORGANIZATION" transform="translate(167 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">ORGANISATION</tspan></text>
+                <text class="section2inner innercontent" id="Manage_all_your_assets_servicing_and_payments_together_without_the_need_for_paper_copies." data-name="Manage your equipment, servicing,
+                        and payments together without the
+                        need for paper copies." transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-125.543" y="0">Manage your equipment, servicing, </tspan><tspan x="-134.73" y="17">and payments together without the </tspan><tspan x="-83.55" y="34">need for paper copies.</tspan></text>
+                <text class="section3inner innercontent" id="ACCOUNTABILITY-2" data-name="ACCOUNTABILITY" transform="translate(157 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">ACCOUNTABILITY</tspan></text>
+                <text class="section3inner innercontent" id="All_payments_and_invoices_are_clearly_documented_and_available_for_all_parties." data-name="All payments and invoices are clearly
+                        documented, and available for all
+                        parties." transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-137.543" y="0">All payments and invoices are clearly</tspan><tspan x="-123.315" y="17">documented, and available for all</tspan><tspan x="-27.375" y="34">parties.</tspan></text>
+                <text class="section4inner innercontent" id="SECURITY-2" data-name="SECURITY" transform="translate(198 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">SECURITY</tspan></text>
+                <text class="section4inner innercontent" id="All_payment_are_processed_by_large_third-parties_such_as_Square_PayPal_and_Stripe" data-name="All payment are processed
+                        by large third-parties such as Square,
+                        PayPal, and Stripe" transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-99.225" y="0">All payment are processed</tspan><tspan x="-140.573" y="17">by large third-parties such as Square, </tspan><tspan x="-67.35" y="34">PayPal, and Stripe</tspan></text>
+            </g>
+        </svg>
+    </div>
+
+</div>
+
+<!--Bottom Call to Action-->
+<div class="container-fluid bg-white pb-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-10">
+            <div class="bottom-banner row justify-content-center align-items-center p-2 p-md-5">
+                <div class="col-10 col-md-6 text-center text-md-start">
+                    <h4 class="m-0">Sign up for the beta today!</h4>
+                    <p class="m-0">Keep your crew on point. Get in touch.</p>
+                </div>
+                <div class="col-10 col-md-6 text-center text-md-end">
+                    <button class="try-it-btn" type="button" data-bs-toggle="modal" data-bs-target="#reqdemomodal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Client side validation for entry types above-->
+
+
+<!--Footer-->
+<div class="container-fluid custom-footer p-5 text-lg-start text-center">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <h4 class="footer-header">A platform for modern day maintenance.</h4>
+            </div>
+        </div>
+        <div class="col-12 col-lg-2">
+            <h4 class="footer-header">Platform</h4>
+            <p>
+                <a href="/">Overview</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformDefault">Jobs</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformAssets">Equipment</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformPayments">Payments</a>
+            </p>
+        </div>
+        <div class="col-12 col-lg-2 footer-links">
+            <h4 class="footer-header">About</h4>
+            <p>
+                <a href="/Home/ContactUs">Contact Us</a>
+            </p>
+            <p>
+                <a href="/Home/privacypolicy">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="/Home/termsofservice">Terms of Service</a>
+            </p>
+            <p>
+                <a>Frequently Asked Questions</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+        </main>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/mycrewpoints.js"></script>
+    
+    
+        <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+</body>
+</html>

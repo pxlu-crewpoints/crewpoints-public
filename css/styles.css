@@ -1,0 +1,501 @@
+﻿
+/*general stylings*/
+body, html {
+    height: 100%;
+    background-color: #F9F9F9;
+}
+
+@font-face {
+    font-family: Gotham-Regular;
+    src: url('/fonts/Gotham Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gotham-Thin-Italic;
+    src: url('/fonts/Gotham Thin Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gotham-Thin;
+    src: url('/fonts/Gotham Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('/fonts/Gotham Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url('/fonts/Gotham Light.woff') format('woff');
+}
+
+
+
+h1 {
+    font-family: Gotham-Regular, serif;
+}
+
+h4, a, label, h3, button , h5 {
+    font-family: Gotham-Medium, serif;
+}
+
+p {
+    font-family: Gotham-Light;
+}
+
+/*change input font on forms*/
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: Gotham-Thin, serif;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: Gotham-Thin, serif;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: Gotham-Thin, serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: Gotham-Thin, serif;
+}
+
+
+
+
+
+/*Footer Partial View*/
+
+.custom-footer {
+    color: white;
+    background-color: #1B4366;
+}
+
+.custom-footer a {
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
+/*landing page stylings*/
+
+
+.features-text {
+    font-size: 1.25rem;
+}
+
+.hero-top {
+    background-color: #F9F9F9;
+}
+
+.filled-btn {
+    background-color: #1B4366;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 20px 5px 20px;
+    margin: 7px;
+}
+
+.empty-btn {
+    background-color: transparent;
+    color: #1B4366;
+    border-radius: 5px;
+    border: solid 2px #1B4366;
+    padding: 3px 18px 3px 18px;
+    margin: 7px;
+}
+
+.try-it-btn {
+    background-color: #1B4366;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 40px 5px 40px;
+    margin: 7px;
+}
+
+.footer-header {
+    font-family: Gotham-Regular;
+}
+
+
+
+/*Request Demo Popup*/
+.test {
+    margin-left:auto;
+    padding:10px;
+}
+
+.reqdemocontainer label {
+    font-family: Gotham-Light;
+}
+
+
+.reqdemocontainer .modal-content {
+    border-radius: 10px;
+}
+
+.reqdemobody {
+    width:75%;
+}
+/*css for login view*/
+.login-interface .login-login-btn {
+    padding: 5px;
+    background-color: #1B4366;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin: 5px 0px 5px 0px;
+    font-family: Gotham-Medium, serif;
+}
+
+.login-interface {
+    padding: 20px;
+    border: solid 1px grey;
+    border-radius: 4px;
+}
+
+.login-interface .form-control{
+    outline: none;
+    border:none;
+    border-bottom:1px solid;
+    border-radius:0px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+.sign-in-btn {
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+}
+
+.login-link{
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*css for platform/features page*/
+
+.platform-navbar {
+    background-color: #F9F9F9;
+}
+
+.tabsradio {
+    display:none;
+}
+
+.tab {
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.tab:hover {
+    cursor: pointer;
+    background-color: #ececec;
+}
+.tabslabel {
+    padding:10px;
+    cursor:pointer;
+}
+ 
+.alltabs .tabcontent {
+    order:1;
+    display:none;
+}
+
+.tabsicons {
+    margin-bottom: 5px;
+    width: 20px;
+    height:20px;
+}
+
+.alltabs #tabjobs:checked ~ .features-body-content #tabjobscontent {
+    display:flex;
+}
+
+.alltabs #tabjobs:checked ~ #tabsheader #tab1 {
+    background-color: white;
+}
+.alltabs #tabassets:checked ~ .features-body-content #tabassetscontent {
+    display:flex;
+}
+
+.alltabs #tabassets:checked ~ #tabsheader #tab2 {
+    background-color: white;
+}
+.alltabs #tabpayments:checked ~ .features-body-content #tabpaymentscontent {
+    display:flex;
+}
+
+.alltabs #tabpayments:checked ~ #tabsheader #tab3 {
+    background-color: white;
+}
+
+.bottom-banner {
+    background-color: #EAEAEA;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/*css for plans page*/
+
+.toggle-container {
+    width: 25%;
+    text-align: center;
+    background-color:#EAEAEA;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position:relative;
+}
+
+#slider1-label {
+    color: white;
+    transition: color 330ms ease-in-out;
+}
+
+#slider1-label:hover {
+    cursor:pointer;
+}
+
+#slider2-label:hover {
+    cursor: pointer;
+}
+#slider2-label {
+    color: white;
+    transition: color 330ms ease-in-out
+}
+
+.slider-button {
+    display:none;
+}
+
+.slider-options {
+    z-index: 1;
+}
+
+.slider {
+    position: absolute;
+    left:0%;
+    background-color: #1B4366;
+    height: 100%;
+    border-radius: 20px;
+    transition: left 330ms ease-in-out;
+}
+
+#slider1:checked ~ .container-fluid .toggle-container .slider {
+    left: 0%;
+}
+
+#slider1:checked ~ .container-fluid .toggle-container .slider-options #slider2-label {
+    color:black;
+}
+#slider2:checked ~ .container-fluid .toggle-container .slider {
+    left: 50%;
+}
+
+#slider2:checked ~ .container-fluid .toggle-container .slider-options #slider1-label {
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .toggle-container {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .slider-label {
+        font-size:0.7rem;
+    }
+}
+
+.table-container {
+    display:none;
+    padding: 100px 0px 100px 0px;
+}
+
+#slider1:checked ~ #table-container-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider2:checked ~ #table-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.plan-table {
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #D6D6D6;
+}
+
+.table > thead > tr > th {
+    border: 0;
+}
+
+.plans-table-body > tr {
+    vertical-align: middle;
+}
+.plans-table-body {
+    font-family: Gotham-Light;
+    font-size: 0.75rem;
+}
+
+.plans-table-body > tr > td > img {
+    height:20px;
+}
+
+.plans-table-body > tr > td {
+    text-align:center;
+    padding: 10px 0px 10px 0px;
+}
+
+#top-row {
+    border-top: solid 1px #dee2e6;
+}
+
+
+
+
+
+
+/*css for for technicians page*/
+
+.number {
+    background-color: #1B4366;
+    border-radius:50%;
+    width: 100px;
+    height:100px;
+    text-align:center;  
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/*css for mycrewpoints*/
+input[name="circlebuttons"] {
+    display: none;
+}
+
+.innercontent {
+    display:none;
+}
+
+#section1radio:checked ~ svg #Subtraction_1 {
+    fill: #1B4366;
+}
+
+#section1radio:checked ~ svg .section1text {
+    fill: white;
+}
+
+#section1radio:checked ~ svg .section1text {
+    fill: white;
+}
+
+#section1radio:checked ~ svg .section1inner {
+    display: block;
+}
+
+#section1radio:not(:checked) ~ svg #Subtraction_1:hover {
+    fill: #e6e4e4;
+    cursor: pointer;
+}
+
+
+
+#section2radio:checked ~ svg #Subtraction_2 {
+    fill: #1B4366;
+}
+
+#section2radio:checked ~ svg .section2text {
+    fill: white;
+}
+
+#section2radio:checked ~ svg .section2inner {
+    display: block;
+}
+#section2radio:not(:checked) ~ svg #Subtraction_2:hover {
+    fill: #e6e4e4;
+    cursor: pointer;
+}
+
+
+
+#section3radio:checked ~ svg #Subtraction_3 {
+    fill: #1B4366;
+}
+
+#section3radio:checked ~ svg .section3text {
+    fill: white;
+}
+
+#section3radio:checked ~ svg .section3inner {
+    display: block;
+}
+
+#section3radio:not(:checked) ~ svg #Subtraction_3:hover {
+    fill: #e6e4e4;
+    cursor: pointer;
+}
+
+
+#section4radio:checked ~ svg #Subtraction_4 {
+    fill: #1B4366;
+}
+
+#section4radio:checked ~ svg .section4text {
+    fill: white;
+}
+
+#section4radio:checked ~ svg .section4inner {
+    display: block;
+}
+
+#section4radio:not(:checked) ~ svg #Subtraction_4:hover {
+    fill: #e6e4e4;
+    cursor: pointer;
+}
+
+
+
+/*CSS for contact us page*/
+
+.contactusform {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background:white;
+    padding:40px;
+    margin-bottom:30px;
+}

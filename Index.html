@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Testing</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <main role="main">
+            
+<!--Navbar-->
+<!--Navbar-->
+<nav class="platform-navbar navbar navbar-expand-lg navbar-light" id="landing-navbar">
+    <div class="container-fluid">
+        <!--crewpoints logo-->
+        <a class="navbar-brand text-dark" href="/">CREWPOINTS</a>
+        <!--toggle collapse button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/PlatformDefault">Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/WhyCrewpoints">Why Crewpoints?</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-center flex-wrap">
+                <a href="/Home/ForTech">
+                    <input class="filled-btn" type="button" value="For Technicians" />
+                </a>
+                <a href="/Home/Login">
+                    <input class="empty-btn" type="button" value="Log In" />
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<style>
+    #landing-navbar {
+        background-color: #F9F9F9;
+    }
+</style>
+
+<!--Hero-->
+<div class="container-fluid p-0">
+    <div class=" hero-top d-flex flex-column justify-content-center align-items-center text-center p-5">
+        <h1>Managing restaurant equipment?</h1>
+        <h4>
+            Requests, Payments, Equipment, All in One Place.
+        </h4>
+        <button class="try-it-btn" type="button" data-bs-toggle="modal" data-bs-target="#reqdemomodal">Beta Sign Up</button>
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 col-md-10">
+                <picture>
+                    <source media="(max-width:600px)" srcset="/Images/workers-mobile.png">
+                    <img class="w-100" src="/Images/workers.png" />
+                </picture>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade reqdemocontainer" id="reqdemomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content container-fluid">
+            <div class="d-flex align-items-center justify-content-end">
+                <button type="button" class="btn-close pt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body row justify-content-center">
+                <div class="col-10">
+                    <h5 class="text-center pb-3">Sign Up for the Crewpoints Beta</h5>
+                    <form method="post">
+                        <!-- Name inputs -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqfname">First Name</label>
+                            <input type="text" id="reqfname" class="form-control mb-2" data-val="true" data-val-required="The FirstName field is required." name="FirstName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+
+                        </div>
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqlname">Last Name</label>
+                            <input type="text" id="reqlname" class="form-control mb-2" data-val="true" data-val-required="The LastName field is required." name="LastName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqemail">Business Email</label>
+                            <input type="email" id="reqemail" class="form-control mb-2" data-val="true" data-val-required="The Email field is required." name="Email" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+                        <!--Phone Number-->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="phone">Phone Number</label>
+                            <input type="text" id="phone" class="form-control mb-2" data-val="true" data-val-required="The PhoneNumber field is required." name="PhoneNumber" value="">
+                            <span class="text-danger field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Title input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqtitle">Job Title</label>
+                            <input type="text" id="reqtitle" class="form-control mb-2" data-val="true" data-val-required="The JobTitle field is required." name="JobTitle" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="JobTitle" data-valmsg-replace="true"></span>
+                        </div>
+
+                        <!-- Company input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqcompany">Company</label>
+                            <input type="text" id="reqcompany" class="form-control mb-2" data-val="true" data-val-required="The Company field is required." name="Company" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn filled-btn w-100 mx-0 my-4">Get Your Free Beta</button>
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BjHAna27a5JqKrLF5wTUmhkL94BNAt9y0B5o1hklMx8jFlfpZnHcvh03uR-8xV113d-CoQZYe6Be1H2nQKhMgUiPCngfOw57OlsuZkNvFA5eb05iEUWgxfu5PmCY5WPOjxiNVJKj50GVmY1pc9vKkI" /></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Summary of Features-->
+
+<div class="container-fluid my-5 text-center">
+    <div class="row justify-content-center align-items-center m-0">
+        <div class="col-8 col-lg-4 p-3 ">
+            <img class="img-fluid" src="/images/swe bro.png" alt="manage requests image" />
+        </div>
+        <div class="col-8 col-lg-4 p-3">
+            <h4>Jobs</h4>
+            <p class="features-text">Quickly create, accept, and manage maintenance requests for all parties.</p>
+            <a href="/Home/PlatformDefault">
+                <input class="btn btn-outline-dark" type="button" value="Learn more" />
+            </a>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center m-0 d-none d-lg-flex">
+        <div class="col-8 col-lg-4 p-3">
+            <h4>Payments</h4>
+            <p class="features-text">Third party payment integration enhances payment speed and security.</p>
+            <a href="/Home/PlatformPayments">
+                <input class="btn btn-outline-dark" type="button" value="Learn more" />
+            </a>
+        </div>
+        <div class="col-8 col-lg-4 p-3 ">
+            <img class="img-fluid" src="/images/swe pana.png" alt="manage payments image" />
+        </div>
+    </div>
+    <!--hidden div-->
+    <div class="row justify-content-center align-items-center m-0 d-lg-none">
+        <div class="col-8 col-lg-4 p-3 ">
+            <img class="img-fluid" src="/images/swe pana.png" alt="manage payments image" />
+        </div>
+        <div class="col-8 col-lg-4 p-3">
+            <h4>Payments</h4>
+            <p class="features-text">Third party payment integration enhances payment speed and security.</p>
+            <a href="/Home/PlatformPayments">
+                <input class="btn btn-outline-dark" type="button" value="Learn more" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row justify-content-center align-items-center m-0">
+        <div class="col-8 col-lg-4 p-3 ">
+            <img class="img-fluid" src="/images/ba amico.png" alt="manage assets image" />
+        </div>
+        <div class="col-8 col-lg-4 p-3">
+            <h4>Equipment</h4>
+            <p class="features-text">Be notified of upcoming maintenance well in advance.</p>
+            <a href="/Home/PlatformAssets">
+                <input class="btn btn-outline-dark" type="button" value="Learn more" />
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--Client side validation for entry types above-->
+
+<!--Footer-->
+<div class="container-fluid custom-footer p-5 text-lg-start text-center">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <h4 class="footer-header">A platform for modern day maintenance.</h4>
+            </div>
+        </div>
+        <div class="col-12 col-lg-2">
+            <h4 class="footer-header">Platform</h4>
+            <p>
+                <a href="/">Overview</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformDefault">Jobs</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformAssets">Equipment</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformPayments">Payments</a>
+            </p>
+        </div>
+        <div class="col-12 col-lg-2 footer-links">
+            <h4 class="footer-header">About</h4>
+            <p>
+                <a href="/Home/ContactUs">Contact Us</a>
+            </p>
+            <p>
+                <a href="/Home/privacypolicy">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="/Home/termsofservice">Terms of Service</a>
+            </p>
+            <p>
+                <a>Frequently Asked Questions</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+        </main>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/mycrewpoints.js"></script>
+    
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>

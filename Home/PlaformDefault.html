@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> - Testing</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <main role="main">
+            <!--Navbar-->
+<!--Navbar-->
+<nav class="platform-navbar navbar navbar-expand-lg navbar-light" id="landing-navbar">
+    <div class="container-fluid">
+        <!--crewpoints logo-->
+        <a class="navbar-brand text-dark" href="/">CREWPOINTS</a>
+        <!--toggle collapse button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/PlatformDefault">Platform</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/Home/WhyCrewpoints">Why Crewpoints?</a>
+                </li>
+            </ul>
+            <div class="d-flex justify-content-center flex-wrap">
+                <a href="/Home/ForTech">
+                    <input class="filled-btn" type="button" value="For Technicians" />
+                </a>
+                <a href="/Home/Login">
+                    <input class="empty-btn" type="button" value="Log In" />
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--Title-->
+<h1 class="text-center py-5">Explore the product</h1>
+
+<!-- Modal -->
+<div class="modal fade reqdemocontainer" id="reqdemomodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content container-fluid">
+            <div class="d-flex align-items-center justify-content-end">
+                <button type="button" class="btn-close pt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body row justify-content-center">
+                <div class="col-10">
+                    <h5 class="text-center pb-3">Sign Up for the Crewpoints Beta</h5>
+<form action="/?redirectUrl=%2FHome%2FPlatformDefault" method="post">                        <!-- Name inputs -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqfname">First Name</label>
+                            <input type="text" id="reqfname" class="form-control mb-2" data-val="true" data-val-required="The FirstName field is required." name="FirstName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+
+                        </div>
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqlname">Last Name</label>
+                            <input type="text" id="reqlname" class="form-control mb-2" data-val="true" data-val-required="The LastName field is required." name="LastName" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Email input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqemail">Business Email</label>
+                            <input type="email" id="reqemail" class="form-control mb-2" data-val="true" data-val-required="The Email field is required." name="Email" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                        </div>
+                        <!--Phone Number-->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="phone">Phone Number</label>
+                            <input type="text" id="phone" class="form-control mb-2" data-val="true" data-val-required="The PhoneNumber field is required." name="PhoneNumber" value="">
+                            <span class="text-danger field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Title input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqtitle">Job Title</label>
+                            <input type="text" id="reqtitle" class="form-control mb-2" data-val="true" data-val-required="The JobTitle field is required." name="JobTitle" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="JobTitle" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Company input -->
+                        <div class="form-outline">
+                            <label class="form-label m-0" for="reqcompany">Company</label>
+                            <input type="text" id="reqcompany" class="form-control mb-2" data-val="true" data-val-required="The Company field is required." name="Company" value="" />
+                            <span class="text-danger field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn filled-btn w-100 mx-0 my-4">Get Your Free Beta</button>
+</form>                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Tabs-->
+<div class="alltabs container-fluid d-flex flex-wrap justify-content-center p-0">
+
+    <input class="tabsradio" type="radio" id="tabjobs" name="platformtabs" checked=&quot;checked&quot; />
+    <input class="tabsradio" type="radio" id="tabassets" name="platformtabs"  />
+    <input class="tabsradio" type="radio" id="tabpayments" name="platformtabs"  />
+
+    <div class="row justify-content-center w-100 align-items-center" id="tabsheader">
+        <div class=" tab col-4 col-lg-2 d-flex flex-sm-row flex-column justify-content-center align-items-center" id="tab1">
+            <img class="tabsicons" src="/Images/suitcase.svg" alt="suitcase" />
+            <label class="tabslabel" for="tabjobs">Jobs</label>
+        </div>
+        <div class=" tab col-4 col-lg-2 d-flex flex-sm-row flex-column justify-content-center align-items-center" id="tab2">
+            <img class="tabsicons" src="/Images/machine.svg" alt="machine" />
+            <label class="tabslabel" for="tabassets">Equipment</label>
+        </div>
+        <div class=" tab col-4 col-lg-2 d-flex flex-sm-row flex-column justify-content-center align-items-center" id="tab3">
+            <img class="tabsicons" src="/Images/cash.svg" alt="cash" />
+            <label class="tabslabel" for="tabpayments">Payments</label>
+        </div>
+    </div>
+
+    <div class="features-body-content container-fluid bg-white">
+
+        <div class="tabcontent row justify-content-center align-items-center m-0 py-5" id="tabjobscontent">
+            <div class="col-10 col-lg-5 p-3 text-center">
+                <img class="img-fluid" src="/images/swe bro.png" alt="manage requests image" />
+            </div>
+            <div class="col-10 col-lg-5 p-3">
+                <h4>View</h4>
+                <p>Keep track of all open, in-progress, and completed job requests.</p>
+                <h4>Create</h4>
+                <p>Create new job requests at any time, for any piece of equipment in your restaurant.</p>
+                <h4>Edit</h4>
+                <p>Edit open and in-progress job requests; all changes are instantly submitted to technicians.</p>
+            </div>
+        </div>
+
+        <div class="tabcontent row justify-content-center align-items-center m-0 py-5" id="tabassetscontent">
+            <div class="col-10 col-lg-5 p-3 text-center">
+                <img class="img-fluid" src="/images/swe pana.png" alt="manage payments image" />
+            </div>
+            <div class="col-10 col-lg-5 p-3">
+                <h4>View</h4>
+                <p>See an overview of your restaurant, with comprehensive equipment details.</p>
+                <h4>Track</h4>
+                <p>Keep track of service history, with details including photos and notes.</p>
+                <h4>Edit</h4>
+                <p>Instantly add, remove, and edit equipment in your restaurant.</p>
+            </div>
+        </div>
+
+        <div class="tabcontent row justify-content-center align-items-center m-0 py-5" id="tabpaymentscontent">
+            <div class="col-10 col-lg-5 p-3 text-center">
+                <img class="img-fluid" src="/images/ba amico.png" alt="manage assets image" />
+            </div>
+            <div class="col-10 col-lg-5 p-3">
+                <h4>View</h4>
+                <p>Keep track of all incoming and outgoing payments, with invoices.</p>
+                <h4>Create</h4>
+                <p>Make new payments and genereate custom invoices with Quickbooks integration.</p>
+                <h4>Secure</h4>
+                <p>All payments are made through Stripe and Paypal to ensure secure transactions.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Bottom Call to Action-->
+<div class="container-fluid bg-white pb-5">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-10">
+            <div class="bottom-banner row justify-content-center align-items-center p-2 p-md-5">
+                <div class="col-10 col-md-6 text-center text-md-start">
+                    <h4 class="m-0">Sign up for the beta today!</h4>
+                    <p class="m-0">Keep your crew on point. Get in touch.</p>
+                </div>
+                <div class="col-10 col-md-6 text-center text-md-end">
+                    <button class="try-it-btn" type="button" data-bs-toggle="modal" data-bs-target="#reqdemomodal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Client side validation for entry types above-->
+
+<!--Footer-->
+<div class="container-fluid custom-footer p-5 text-lg-start text-center">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+            <div class="d-flex align-items-center justify-content-center h-100">
+                <h4 class="footer-header">A platform for modern day maintenance.</h4>
+            </div>
+        </div>
+        <div class="col-12 col-lg-2">
+            <h4 class="footer-header">Platform</h4>
+            <p>
+                <a href="/">Overview</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformDefault">Jobs</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformAssets">Equipment</a>
+            </p>
+            <p>
+                <a href="/Home/PlatformPayments">Payments</a>
+            </p>
+        </div>
+        <div class="col-12 col-lg-2 footer-links">
+            <h4 class="footer-header">About</h4>
+            <p>
+                <a href="/Home/ContactUs">Contact Us</a>
+            </p>
+            <p>
+                <a href="/Home/privacypolicy">Privacy Policy</a>
+            </p>
+            <p>
+                <a href="/Home/termsofservice">Terms of Service</a>
+            </p>
+            <p>
+                <a>Frequently Asked Questions</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/Platform.js"></script>
+
+        </main>
+    </div>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    <script src="/js/mycrewpoints.js"></script>
+    
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+</html>

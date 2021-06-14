@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <g id="Component_11_2" data-name="Component 11 – 2" transform="translate(0)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(-1 -1)" fill="#eee"/>
+    <path id="Subtraction_2" data-name="Subtraction 2" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(-1 501) rotate(-90)" fill="#eee"/>
+    <path id="Subtraction_3" data-name="Subtraction 3" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(501 501) rotate(180)" fill="#eee"/>
+    <path id="Subtraction_4" data-name="Subtraction 4" d="M101,251H1a251.84,251.84,0,0,1,5.079-50.384A248.631,248.631,0,0,1,43.7,111.223,250.729,250.729,0,0,1,153.689,20.646,248.738,248.738,0,0,1,200.616,6.079,251.847,251.847,0,0,1,251,1V101A150.17,150.17,0,0,0,101,251Z" transform="translate(501 -1) rotate(90)" fill="#eee"/>
+    <text id="Accountability" transform="translate(50 380)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Accountability</tspan></text>
+    <text id="Efficiency" transform="translate(59 130)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Efficiency</tspan></text>
+    <text id="Organization" transform="translate(360 130)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Organization</tspan></text>
+    <text id="Security" transform="translate(379 380)" fill="#707070" font-size="13" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">Security</tspan></text>
+    <path id="Path_1" data-name="Path 1" d="M0,0H20V20H0Z" transform="translate(396 347)" fill="none"/>
+    <path id="Path_2" data-name="Path 2" d="M14.5,6.667h-.75V5.048A3.909,3.909,0,0,0,10,1,3.909,3.909,0,0,0,6.25,5.048V6.667H5.5A1.568,1.568,0,0,0,4,8.286v8.1A1.568,1.568,0,0,0,5.5,18h9A1.568,1.568,0,0,0,16,16.381v-8.1A1.568,1.568,0,0,0,14.5,6.667ZM10,13.952a1.624,1.624,0,0,1,0-3.238,1.624,1.624,0,0,1,0,3.238Zm2.325-7.286H7.675V5.048A2.425,2.425,0,0,1,10,2.538a2.425,2.425,0,0,1,2.325,2.51Z" transform="translate(396 347)" fill="#707070"/>
+    <path id="bolt_black_24dp" d="M11.444,23H10.333l1.111-7.778H7.555c-.644,0-.633-.356-.422-.733s.056-.089.078-.133Q9.361,10.556,13.666,3h1.111l-1.111,7.778h3.889c.544,0,.622.367.522.567L18,11.511Q11.433,22.994,11.444,23Z" transform="translate(80.441 91)" fill="#707070"/>
+    <path id="Path_3" data-name="Path 3" d="M0,0H20V20H0Z" transform="translate(83 347)" fill="none"/>
+    <path id="Path_4" data-name="Path 4" d="M16.4,2H3.6A1.659,1.659,0,0,0,2,3.6V6.008A1.616,1.616,0,0,0,2.8,7.36V16.4A1.719,1.719,0,0,0,4.4,18H15.6a1.719,1.719,0,0,0,1.6-1.6V7.36A1.616,1.616,0,0,0,18,6.008V3.6A1.659,1.659,0,0,0,16.4,2Zm-4,9.6H7.6V10h4.8Zm4-5.6H3.6V3.6l12.8-.016Z" transform="translate(83 347)" fill="#707070"/>
+    <path id="Path_5" data-name="Path 5" d="M0,0H20V20H0Z" transform="translate(396 94)" fill="none"/>
+    <path id="Path_6" data-name="Path 6" d="M3,10.778H9.222V3H3ZM3,17H9.222V12.333H3Zm7.778,0H17V9.222H10.778Zm0-14V7.667H17V3Z" transform="translate(396 94)" fill="#707070"/>
+    <text id="EFFICIENCY-2" data-name="EFFICIENCY" transform="translate(187 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">EFFICIENCY</tspan></text>
+    <text id="With_all_your_resources_under_one_hood_its_quick_and_easy_to_carry_out_day-to-day_operations_" data-name="With all your resources under one 
+hood, its quick and easy to carry 
+out day-to-day operations " transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-127.643" y="0">With all your resources under one </tspan><tspan x="-123.413" y="17">hood, its quick and easy to carry </tspan><tspan x="-99.885" y="34">out day-to-day operations </tspan></text>
+    <text id="ORGANIZATION-2" data-name="ORGANIZATION" transform="translate(167 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">ORGANIZATION</tspan></text>
+    <text id="Manage_all_your_assets_servicing_and_payments_together_without_the_need_for_paper_copies." data-name="Manage all your assets, servicing, 
+and payments together without the 
+need for paper copies." transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-125.543" y="0">Manage all your assets, servicing, </tspan><tspan x="-134.73" y="17">and payments together without the </tspan><tspan x="-83.55" y="34">need for paper copies.</tspan></text>
+    <text id="ACCOUNTABILITY-2" data-name="ACCOUNTABILITY" transform="translate(157 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">ACCOUNTABILITY</tspan></text>
+    <text id="All_payments_and_invoices_are_clearly_documented_and_available_for_all_parties." data-name="All payments and invoices are clearly
+documented, and available for all
+parties." transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-137.543" y="0">All payments and invoices are clearly</tspan><tspan x="-123.315" y="17">documented, and available for all</tspan><tspan x="-27.375" y="34">parties.</tspan></text>
+    <text id="SECURITY-2" data-name="SECURITY" transform="translate(198 185)" font-size="20" font-family="Gotham-Bold, Gotham" font-weight="700"><tspan x="0" y="0">SECURITY</tspan></text>
+    <text id="All_payment_are_processed_by_large_third-parties_such_as_Square_PayPal_and_Stripe" data-name="All payment are processed
+by large third-parties such as Square, 
+PayPal, and Stripe" transform="translate(250 234)" font-size="15" font-family="GothamPro, Gotham Pro"><tspan x="-99.225" y="0">All payment are processed</tspan><tspan x="-140.573" y="17">by large third-parties such as Square, </tspan><tspan x="-67.35" y="34">PayPal, and Stripe</tspan></text>
+  </g>
+</svg>
