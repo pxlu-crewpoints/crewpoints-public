@@ -30,6 +30,16 @@ body, html {
     src: url('/fonts/Gotham Light.woff') format('woff');
 }
 
+@font-face {
+    font-family: Gotham-Bold;
+    src: url('/fonts/Gotham Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: GothamPro;
+    src: url('/fonts/Gotham Pro Regular.woff') format('woff');
+}
+
 
 
 h1 {
