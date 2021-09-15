@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/site.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <div class="container-fluid p-0">
@@ -66,12 +67,16 @@
             </div>
             <div class="form-group">
                 <label for="contactusmessage">Message</label>
-                <textarea class="form-control" id="contactusmessage" rows="3" data-val="true" data-val-required="The Message field is required." name="Message">
-</textarea>
+                <textarea class="form-control" id="contactusmessage" rows="3" data-val="true" data-val-required="The Message field is required." name="Message"></textarea>
                 <span class="text-danger field-validation-valid" data-valmsg-for="Message" data-valmsg-replace="true"></span>
             </div>
-            <button type="submit" class="btn filled-btn w-100 mx-0 my-4">Submit</button>
-        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BjHAna27a5JqKrLF5wTUmgqB8tO8hd04CBh_fcuAD0OLanq0fZmt6NI5GmCPNBxOCNgJBusNeXjSCCSiEBzaSI87su0d9xT5p3BBuuIxvWcCK_t0G0rtlZB0EJqUGs7671_P7wXWQFg3eEtFTz5-YI" /></form>
+            <div class="d-flex justify-content-center my-4">
+                <div class="g-recaptcha mx-auto" data-sitekey="6LfcIWkbAAAAAD0rl5UiH6srIR4Kd99Px1kn_t0W"></div>
+            </div>
+            <button type="submit" class="btn filled-btn w-100 mx-0">Submit</button>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8BjHAna27a5JqKrLF5wTUmgqB8tO8hd04CBh_fcuAD0OLanq0fZmt6NI5GmCPNBxOCNgJBusNeXjSCCSiEBzaSI87su0d9xT5p3BBuuIxvWcCK_t0G0rtlZB0EJqUGs7671_P7wXWQFg3eEtFTz5-YI" />
+
+        </form>
     </div>
 </div>
 
@@ -113,7 +118,7 @@
                 <a href="/Home/termsofservice">Terms of Service</a>
             </p>
             <p>
-                <a>Frequently Asked Questions</a>
+                <a href="/Home/faq">Frequently Asked Questions</a>
             </p>
         </div>
     </div>

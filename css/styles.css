@@ -120,12 +120,16 @@ p {
 }
 
 .try-it-btn {
-    background-color: #1B4366;
-    color: white;
-    border-radius: 5px;
-    border: 0;
-    padding: 5px 40px 5px 40px;
+    background-color: #fd7300;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 10px 60px 10px 60px;
     margin: 7px;
+    font-size: 22px;
+    font-variant: small-caps;
+    text-decoration:none;
 }
 
 .footer-header {
@@ -508,4 +512,36 @@ input[name="circlebuttons"] {
     background:white;
     padding:40px;
     margin-bottom:30px;
+}
+
+/*CSS for faq page*/
+.questions-container {
+    width:100%;
+}
+
+.faq-button.nav-link {
+    border-radius:10px 10px 0px 0px;  
+    border:none;
+}
+
+.accordion-item{
+    width:75%;
+}
+
+.faq-tab{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.faq-tab:hover {
+    background-color: lightgray;
+}
+
+.nav-tabs .nav-item .nav-link{
+    border-width:0px 0px 1px 0px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    border-width: 1px 1px 0px 1px;
 }
