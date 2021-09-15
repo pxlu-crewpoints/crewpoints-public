@@ -513,3 +513,35 @@ input[name="circlebuttons"] {
     padding:40px;
     margin-bottom:30px;
 }
+
+/*CSS for faq page*/
+.questions-container {
+    width:100%;
+}
+
+.faq-button.nav-link {
+    border-radius:10px 10px 0px 0px;  
+    border:none;
+}
+
+.accordion-item{
+    width:75%;
+}
+
+.faq-tab{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.faq-tab:hover {
+    background-color: lightgray;
+}
+
+.nav-tabs .nav-item .nav-link{
+    border-width:0px 0px 1px 0px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    border-width: 1px 1px 0px 1px;
+}
